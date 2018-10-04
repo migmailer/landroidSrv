@@ -1,0 +1,15 @@
+version: "2"
+services:
+  node:
+    image: "node:8"
+    user: "node"
+    working_dir: /home/node/app
+    ports:
+      - "8001:8001"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - /volumes/landroid:/home/node/app
+    expose:
+      - 8001
+    command: "node LandroidSrv.js mower1"
