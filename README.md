@@ -1,5 +1,5 @@
 # fhem-landroid-s
-Worx Landroid-S Module for FHEM SmartHome
+Worx Landroid-S Module for HA
 
 ![Logo](images/Fhem_Landroid_Adapter.jpg)
 
